@@ -1,0 +1,30 @@
+/* --------- combinators --------- */
+
+/* child selector  - one level jump*/
+/* #sam > article > article > div > h1 >span{
+    color: red;
+} */
+
+
+
+/* decendant */
+/* #sam  article  article span{
+    color: green;
+} */
+
+
+
+/*  adjascent sibling */
+/* #sam ul + h1 {
+    color: red;
+} */
+
+
+
+/* general sibling */
+#sam ul ~ h1 , h2 {
+    color: green;
+}
+
+
+

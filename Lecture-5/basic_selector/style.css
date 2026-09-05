@@ -1,0 +1,38 @@
+/* element selector */
+
+/* h1{
+    color: red;
+}
+
+div{
+    background-color: green;
+} */
+
+/* --------------------------------------- */
+
+/* class selector */
+/* .sam{
+    color: pink;
+} */
+
+/* --------------------------------------- */
+
+/* id selector */
+/* #vohra{
+    background-color: orange;
+} */
+
+/* --------------------------------------- */
+/* attribute selector */
+/* a[href="http://google.com"]{
+    color: red;
+    font-size: 60px;
+} */
+
+
+/* --------------------------------------- */
+/* universal selector */
+*{
+    color: red;
+    border: 1px solid black;
+}
