@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div,span{
+    /* box-sizing: content-box; */
+    /* box-sizing: border-box; content shrink krna padhe */
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    padding: 10px;
+    border: 5px solid black;
+    /* margin: 10px; */
+}
+
+span{
+    /* display: block; */
+    display: inline-block;
+}
+
+.vohra{
+    /* display: none; */
+    visibility: hidden;
+}

@@ -1,0 +1,56 @@
+
+
+
+/* h1{
+    color: red;
+}
+
+h1:hover{
+    color: green;
+} */
+
+/* ------------------------ */
+/* .sam{
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    background-color: lightcoral;
+    border-radius: 50%;
+}
+.sam:hover{
+    background-color: lightgreen;
+} */
+/* ------------------------ */
+
+/* a{
+    font-size: 50px;
+}
+a:active{
+    font-size: 100px;
+    color: palevioletred;
+} */
+
+/* ------------------------ */
+/* a:visited{
+    color: orange;
+} */
+
+/* ------------------------ */
+
+input:focus{
+    font-size: 100px;
+    background-color: purple;
+}
+
+li:nth-of-type(4),
+li:nth-of-type(6),
+li:nth-of-type(9){
+    color: red
+}
+
+li:first-child{
+    background-color: orange;
+}
+li:last-child{
+    background-color: orange;
+}

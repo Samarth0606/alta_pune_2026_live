@@ -1,0 +1,15 @@
+li{
+    list-style: none;
+}
+li:nth-of-type(2)::before{
+    /* content: "Heyy there I am Samarth "; */
+    content: '\1F48C';
+
+}
+li:nth-of-type(2)::after{
+    /* content: " Vohra ji"; */
+    content: '\2763';
+}
+li:nth-of-type(2){
+    color: red;
+}
