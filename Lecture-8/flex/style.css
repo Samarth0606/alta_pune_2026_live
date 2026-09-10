@@ -29,15 +29,28 @@ section{
     justify-content: flex-end;
     justify-content: space-around;
     justify-content: space-evenly; */
-    justify-content: space-between;
+    /* justify-content: space-between; */
 
-    align-items: center;
+    /* align-items: center;
     align-items: flex-end;
-    align-items: flex-start;
+    align-items: flex-start; */
 
-    flex-wrap: wrap;
-
+    /* flex-wrap: wrap; */
+/* 
     align-content: flex-start;
     align-content: flex-end;
-    align-content: center;
+    align-content: center; */
+}
+
+/* children propertis */
+
+#four{
+    flex-grow: 4;
+    align-self: center;
+}
+
+#two{
+    flex-grow: 1;
+    flex-shrink: 3;
+    align-self: flex-end;
 }

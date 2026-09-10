@@ -1,0 +1,12 @@
+*{
+    margin: 30px;
+    
+}
+ul{
+    /* inherited */
+    font-size: 100px;
+    color: green;
+
+    /* non inherited */
+    border: 1px solid black;
+}
