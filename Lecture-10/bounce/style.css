@@ -1,0 +1,29 @@
+*{
+    margin: 20;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.ball{
+    width: 100px;
+    height: 100px;
+    background-color: lightcoral;
+    border-radius: 50%;
+    border: 5px solid black;
+
+    animation-name: bounce;
+    animation-duration: 1s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+
+}
+
+@keyframes bounce {
+    0%{
+        transform: translateY(100px);
+    }
+    100%{
+        transform: translateY(670px);
+    }
+}

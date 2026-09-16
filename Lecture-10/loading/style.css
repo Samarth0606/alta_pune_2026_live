@@ -1,0 +1,43 @@
+.container{
+    border: 10px solid black;
+    background-color: lightblue;
+    width: 100px;
+}
+.container:hover{
+    animation-name: sam;
+    animation-duration: 2s;
+    animation-delay: 1s;
+    animation-play-state: running;
+    /* animation-play-state: paused; */
+    /* animation-timing-function: linear; */
+    /* animation-timing-function: ease-in; */
+    /* animation-timing-function: ease-out; */
+    animation-timing-function: ease-in-out;
+}
+@keyframes sam {
+    0%{
+        width: 100px;
+    }
+    100%{
+        width: 100%;
+    }
+}
+.box{
+    height: 40px;
+    border: 1px solid black;
+}
+.first{
+    background-color: red;
+}
+.second{
+    background-color: blue;
+    /* animation-timing-function: ease-in; */
+}
+.third{
+    background-color: green;
+    /* animation-timing-function: ease-out; */
+}
+.fourth{
+    background-color: orange;
+    /* animation-timing-function: ease-in-out; */
+}
