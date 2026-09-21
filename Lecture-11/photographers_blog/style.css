@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    background-color: beige;
+}
+ul{
+    list-style: none;
+}
+li{
+    margin-left: 50px;
+    padding: 10px;
+}
+i{
+    margin-right: 10px;
+}
+nav a{
+    color: black;
+    text-decoration: none;
+    font-size: 1.8rem;
+    font-family: cursive;
+}
+
+#heading{
+    width: 80vw;
+    margin: 32px auto;
+    padding: 16px;
+    background-color: darkgray;    
+    border-radius: 10px;
+}
+#heading h1{
+    color: purple;
+}
+
+#container{
+    
+}
