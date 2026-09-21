@@ -34,5 +34,36 @@ nav a{
 }
 
 #container{
-    
+    width: 80vw;
+    margin: 20px auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-auto-rows: 250px;
+    gap: 20px;
+}
+div{
+    border: 2px solid black;
+    border-radius: 10px;
+    position: relative;
+}
+div img{
+    width: 100%;
+    height: 100%;
+    filter: grayscale(80%);
+}
+
+div img:hover{
+    cursor: pointer;
+    filter: grayscale(0%);
+}
+
+div i{
+    position: absolute;
+    top: 48%;
+    left: 48%;
+    transform: scale(2.2);
+    transition-duration: 300ms;
+}
+div:hover i{
+    transform: scale(0);
 }
