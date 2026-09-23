@@ -156,3 +156,27 @@ nav{
     color: #009999;
 }
 
+
+/* --------- scrolling products ------------ */
+
+.product-slider{
+    background-color: #fff;
+    margin: 0 30px;
+    padding: 20px;
+    margin-bottom: 15px;
+}
+.product-slider .products{
+    display: flex;
+    overflow-x: auto;
+    margin-top: 10px;
+    gap: 20px
+}
+
+.product-slider .products img{
+    max-width: 200px;
+    max-height: 200;
+}
+
+.product-slider .products::-webkit-scrollbar{
+    display: none;
+}
