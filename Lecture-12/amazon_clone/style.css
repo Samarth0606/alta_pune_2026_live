@@ -102,3 +102,57 @@ nav{
     margin: 0px 15px;
 }
 
+
+/* ---------- main slider -------------- */
+.main-slider ul{
+    display: flex;
+    overflow-y: hidden;
+}
+
+.slider-img{
+    max-width: 100%;
+}
+
+.main-slider a{
+    z-index: 1;
+    position: absolute;
+    top: 40%;
+    background-color: #ffffff;
+    text-decoration: none;
+    font-weight: 700;
+    cursor: pointer;
+    font-size: 28px;
+}
+.control-prev{
+    left: 5%;
+}
+.control-next{
+    right: 5%;
+}
+
+/* --------- 4 cardbox ------------ */
+.box-row{
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 20px;
+    justify-content: space-between;
+    margin: 20px 30px;
+}
+
+.box-col{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 15px 20px;
+    background-color: #fff;
+    max-width: 24%;
+    min-height: 200px;
+    z-index: 1;
+}
+
+.box-col a{
+    font-size: 13px;
+    font-weight: 600;
+    color: #009999;
+}
+
