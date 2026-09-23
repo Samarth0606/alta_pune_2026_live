@@ -180,3 +180,17 @@ nav{
 .product-slider .products::-webkit-scrollbar{
     display: none;
 }
+
+/* ----------- footer ----------- */
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 60px;
+    color: #fff;
+}
+
+
+
+
